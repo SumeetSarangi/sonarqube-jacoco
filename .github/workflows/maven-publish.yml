@@ -1,8 +1,10 @@
+
 name: Maven Package
 
 on:
-  release:
-    types: [created]
+  push: 
+    branches:
+      - sony-may-23
 
 jobs:
   build:
